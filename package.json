@@ -1,0 +1,21 @@
+{
+  "name": "tokuten",
+  "version": "0.0.0",
+  "description": "Scoreboard Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/browserify/bin/cmd.js client.js -o public/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/f00by/tokuten"
+  },
+  "author": "Scott Morrice",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "angular": "~1.2.15",
+    "browserify": "~3.38.0",
+    "node-timers": "0.0.1"
+  }
+}
